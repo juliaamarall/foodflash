@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+}
+
+header > nav{
+    background-color: #A52502;
+}
+
+nav > .container-fluid > a{
+    color: white ;
+}
+
+nav > .nav-item > a{
+    color: white ;
+}
+
+.carousel-inner{
+    height: 80vh;
+}
+
+.carousel-item > img{
+    height: 80vh;
+    
+}
+
+#lojasParceiras{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+
+    
+}
+
+.card > img{
+    border-radius: 50% 50%;
+}
+
+#ava{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+#formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario > form{ 
+ width: 50%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 1.2em;
+    padding-top: 0.5em;
+}
+
+footer > section > div > a{
+    text-decoration: none;
+}
+
+footer > section{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    padding: 1em;
+}
+
+footer > section > div{
+    width: 33%;
+}
+
+#ft-1{
+    display: flex;
+    flex-direction: column;
+}
+
+footer > #cinza{
+background-color: rgba(169, 169, 169, 0.766);
+width: 100%;
+align-items: center;
+text-align: center;
+}
+
+
